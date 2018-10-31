@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor":"#fff",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar":{
+    "color":"#000",
+    "selectedColor":"#56abe4",
+    "backgroundColor":"#fff",
+    "borderStyle":"black",
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"首页",
+      "iconPath":"images/home.png",
+      "selectedIconPath":"images/home_selected.png"
+    },{
+      "pagePath":"pages/user/user",
+      "text":"个人中心",
+      "iconPath": "images/user.png",
+      "selectedIconPath": "images/user_selected.png"
+    }]
+  },
+  "debug":true
+}

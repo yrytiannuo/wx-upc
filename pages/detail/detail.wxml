@@ -1,0 +1,11 @@
+<!--pages/detail/detail.wxml-->
+<view class="container">
+  <view class="section__title">{{}}</view>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      选择教室
+      <text>{{array[index]}}</text>
+    </view>
+  </picker>
+  <view>教室共有座位100位，已占据大约60位，较为拥挤，不建议</view>
+</view>

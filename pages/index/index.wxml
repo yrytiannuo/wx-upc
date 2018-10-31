@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="card card-item" wx:for="{{floorList}}">
+    <view class="card-title">
+      <text>{{item.title}}</text>
+    </view>
+    <text class="card-link" bindtap='toDetail' data-index='{{index}}'>{{item.detail}}</text>
+    <view class="card-content">
+      <image class="card-img" src='{{item.cardimg}}'></image>
+    </view>
+  </view>
+</view>
